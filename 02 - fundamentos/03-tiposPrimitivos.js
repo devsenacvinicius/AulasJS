@@ -7,18 +7,18 @@
 // Null
 // Symbol
 
-// String: Representa uma sequência de caracteres. Pode ser delimitada por aspas simples (' '), aspas duplas (" ") ou crases (` `).
+// String: Representa uma sequência de caracteres
 let nome = "Marcio Coutinho";
 let nome2 = "Adele";
-let nome3 = 'João';
+let nome3 = "João";
 let nome4 = `Maria`;
 
-// Number: Representa valores numéricos, tanto inteiros quanto decimais.
+// Number: Representa números, tanto inteiros quanto decimais
 let idade = 30;
 let altura = 1.75;
 
-// Boolean: Representa um valor lógico que pode ser 
-// verdadeiro (true) ou falso (false).
+// Boolean: Representa um valor lógico, que pode ser
+// verdadeiro (true) ou falso (false)
 let isStudent = true;
 let isMarried = false;
 
@@ -26,15 +26,16 @@ let eEstudante = true;
 let eCasado = false;
 
 // Undefined: Representa uma variável que foi declarada,
-// mas ainda não foi atribuída a um valor.
+// mas ainda não foi atribuída um valor
 let endereco;
 let telefone;
 console.log(endereco); // undefined
 
-// Null: Representa a ausência intencional de um valor.
+// Null: Representa a ausência intencional de um valor
 let salario = null;
 
-// Symbol: Representa um valor único e imutável, geralmente usado como identificador.
+// Symbol: Representa um valor único e imutável, geralmente
+// usado como identificador
 let id = Symbol("id");
 let id2 = Symbol("id");
 

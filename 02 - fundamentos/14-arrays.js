@@ -1,13 +1,13 @@
 // Arrays são objetos que armazenam listas de valores
-// em uma única variável.
+//em uma única variáveil.
 
 // Declarando um array
-let frutas = ['maçã', 'banana', 'laranja'];
+let frutas = ["maçã", "banana", "laranja"];
 
 // Acessando elementos do array
 console.log(frutas[2]);
 
-// Adicionando um elemneto ao final do array
+// Adicionando um elemento ao final do array
 frutas.push("uva");
 console.log(frutas);
 

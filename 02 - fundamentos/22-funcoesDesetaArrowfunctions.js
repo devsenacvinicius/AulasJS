@@ -5,14 +5,14 @@
 
 // Exemplo 1: Função de seta simples
 const saudacao = () => {
-  return "Olá, mundo!";
-}
+  return "Olá mundo";
+};
 
 console.log(saudacao());
 
-// Exemplo 2: Função de seta com um único parâmetro
+// Exemplo 2:
 const soma = (a, b) => {
-    return a + b;
+  return a + b;
 };
 console.log(soma(89, 1));
 

@@ -1,15 +1,15 @@
 // Criando um objeto
 let pessoa = {
-    nome: "Marcio",
-    idade: 30,
-    profissao: "Desenvolvedor",
-    taTrabalnhando: true,
-    saudacao: function() {
-        console.log("Olá, meu nome é " + this.nome);
-    },
+  nome: "Marcio",
+  idade: 30,
+  profissao: "Desenvolvedor",
+  taTrabalhando: true,
+  saudacao: function () {
+    console.log("Olá, meu nome é " + this.nome);
+  },
 };
 
-// modificando uma propriedades
+// Modificando propriedades
 pessoa.idade = 31;
 pessoa.profissao = "Engenheiro de Software";
 
@@ -21,5 +21,5 @@ pessoa.cidade = "Arapiraca";
 console.log(pessoa);
 
 // Deletando propriedades
-delete pessoa.taTrabalnhando;
+delete pessoa.taTrabalhando;
 console.log(pessoa);

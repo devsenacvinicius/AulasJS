@@ -1,34 +1,34 @@
 // Desafio 01 Arrays
-const frutas = ["Banana", "Maçã", "Uva", "Abacaxi", "Laranja"];
+const frutas = ["banana", "Maçã", "Uva", "jaca", "manga"];
 console.log(frutas.length);
 
-// Desafio 02 For
+// Desafio 02 for
 for (let i = 0; i < frutas.length; i++) {
-    console.log(frutas[i]);
+  console.log(frutas[i]);
 }
 
-// Desafio 03 For...in
+// Desafio 03 for...in
 let usuario = {
-    nome: "Marcio",
-    email: "marcio@gmail.com",
+  nome: "Marcio",
+  email: "marcio@gmail.com",
 };
-for (let chave in usuario) {
-    console.log(chave + ": " + usuario[chave]);
+for (let porta in usuario) {
+  console.log(porta + ": " + usuario[porta]);
 }
 
-// Desafio 04 For...of
+// Desafio 04 for...of
 for (let fruta of frutas) {
-    console.log(fruta);
+  console.log(fruta);
 }
 
 // Desafio 05
 function encontrarFruta(fruta) {
-    for (let i = 0; i < frutas.length; i++) {
-        if (frutas[i] === fruta) {
-          return "Fruta encontrada: ";
-        }
+  for (let i = 0; i < frutas.length; i++) {
+    if (frutas[i] === fruta) {
+      return "Fruta encontrada";
     }
-    return "Fruta não encontrada: ";
+  }
+  return "Fruta não encontrada";
 }
-console.log(encontrarFruta("Uva"));
-console.log(encontrarFruta("Pera"));
+console.log(encontrarFruta("banana"));
+console.log(encontrarFruta("coco"));

@@ -28,3 +28,23 @@ switch (diaSemana) {
     nomeDia = "Número inválido, não existe mais dia na semana";
 }
 console.log(nomeDia);
+
+//Desafio 02
+let num = 0;
+if (num >= 10 && num <= 20) {
+  console.log("O número está entre 10 e 20");
+} else if (num === 5) {
+  console.log("Seu número é igual a 5");
+} else {
+  console.log("Seu número é NADA");
+}
+
+// Desafio 03
+let nome = "Marcio Coutinho";
+let sobreNome = "Coutinho";
+
+if (nome === sobreNome) {
+  console.log("Os nomes são iguais");
+} else {
+  console.log("Os nomes são diferentes");
+}

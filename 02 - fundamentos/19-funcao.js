@@ -2,7 +2,7 @@
 
 // Declaração de função
 function saudacao() {
-  console.log("Olá, seja bem-vindo!");  
+  console.log("Olá, seja bem-vindo!");
 }
 
 // Chamada da função
@@ -13,4 +13,4 @@ function soma(a, b) {
 }
 
 const resultado = soma(5, 3);
-console.log("O resultado da soma é:", resultado);
+console.log("A soma é:", resultado);
